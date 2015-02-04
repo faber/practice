@@ -1,0 +1,19 @@
+.scales-view {
+  list-style: none;
+}
+.scales-view__note {
+  
+  $width: 100% / 7;
+  $border: 1px solid #aaa;
+  display: inline-block;
+  width: $width;
+  text-align: center;
+  border-top: $border;
+  border-bottom: $border;
+  border-right: $border;
+  padding: 13px 0;
+
+  &:last-child {
+    border-right: none;
+  }
+}

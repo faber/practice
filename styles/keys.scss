@@ -1,0 +1,27 @@
+.keys-view {
+  a {
+    display: block;
+    width: 100%;
+    color: black;
+    padding: 30px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2rem;
+    background-color: #aaa;
+  }
+
+  a.active,
+  a:active {
+    background-color: #ddd;
+  }
+
+  &__key {
+    text-align: center;
+    font-size: 4rem;
+
+    sup {
+      font-size: 0.7em;
+    }
+  }
+}

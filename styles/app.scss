@@ -1,0 +1,44 @@
+.app-nav {
+  ul {
+    list-style: none;
+  }
+
+  &__item {
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    text-transform: uppercase;
+
+    a,
+    a:visited {
+      display: block;
+      padding: 20px 0;  
+      text-decoration: none;
+      color: white;
+      background-color: #333;
+      border-bottom: 5px solid #fff;      
+    }
+    a.active {
+      color: black;
+      background-color: #ccc;
+    }
+  }
+}
+
+.app-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #aaa;
+  color: #000;
+  padding: 13px 5px;
+  text-align: center;
+
+  &__chart-name {
+    margin-bottom: 6px;    
+  }
+  &__greek-name {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
